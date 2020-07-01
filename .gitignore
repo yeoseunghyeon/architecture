@@ -1,0 +1,24 @@
+# Hugo default output directory
+/public
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+PublicWorkshops.xpr
+docs/Template/
+docs/
+.DS_Store
+*.zip
+.pyc
+dist/
+.vscode/
+
+# https://github.com/awslabs/aws-well-architected-labs/issues/92
+!docs/stylesheets/
